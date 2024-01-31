@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <title>Input Html</title>
+  </head>
+  <body>
+    <h1>Input no Html</h1>
+    <form>
+      <!--Campo de Texto-->
+      <label for="Name">Nome</label>
+      <input type="text" id="Nome" value="" required placeholder="Ex.: Igor Rodrigues"/>
+      <br /><br />
+      <!--Campo de Email-->
+      <label for="Email">Email</label>
+      <input type="Email" name="Email" id="Email" required />
+      <br /><br />
+      <!--Campo de Senha-->
+      <label for="Senha">Senha</label>
+      <input type="password" id="Senha" name="Senha" required />
+      <br /><br />
+      <!--Campo de seleção-->
+      <label>Genero</label>
+      <input type="radio" name="Genero" id="Masculino" value="M" />
+      <label for="Masculino">Masculino</label>
+      <input type="radio" name="Genero" id="Feminino" value="F" />
+      <label for="Feminino">Feminino</label>
+      <br /><br />
+      <!--Campo de Seleção multipla (checkbox)-->
+      <label>Interesses</label>
+      <input type="checkbox" id="Backend" value="Backend" name="Interesses" />
+      <label for="Backend">Backend</label>
+      <input
+        type="checkbox"
+        id="Front end"
+        value="Front end"
+        name="Interesses"
+      />
+      <label for="Front end">Front end</label>
+      <input type="checkbox" id="Mobile" value="Mobile" name="Interesses" />
+      <label for="Mobile">Mobile</label>
+      <br /><br />
+      <!-- Campo de Data-->
+      <label for="Data de Nascimento">Data de Nascimento</label>
+      <input type="date" name="Nascimento" id="data de nascimento" />
+      <br /><br />
+      <!--Campo de Arquivo (uploads)-->
+      <label for="Foto de perfil">Foto de perfil</label>
+      <input type="file" name="Avatar" id="Foto de Perfil" />
+      <br /><br />
+      <!--Caixa de seleção-->
+      <label for="situação">Situação Atual</label>
+      <select name="situação" id="Situação">
+        <option value="" selected disabled>Selecione uma das opções</option>
+        <option value="Estudante">
+          Estudando pra se tornar um programador
+        </option>
+        <option value="estagiario">Atuando como estagiário/trainee</option>
+        <option value="junior">Atuando como desenvolvedor júnior</option>
+        <option value="pleno">Atuando como desenvolvedor pleno</option>
+        <option value="senior">Atuando como desenvolvedor sênior</option>
+
+      </select>
+      <br><br>
+      <!--Campo de área de texto de múltiplas linhas-->
+      <label for="Sobre">Sobre mim:</label>
+      <textarea name="Sobre" id="Sobre"></textarea>
+      <br><br>
+      
+
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
